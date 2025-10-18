@@ -1,6 +1,6 @@
 import psycopg2 
 
-#1. Hacer la conexión a la base de datos
+#1 Hacer la conexión a la base de datos
 conexion = psycopg2.connect(
     host = "localhost",
     port = "5432",
